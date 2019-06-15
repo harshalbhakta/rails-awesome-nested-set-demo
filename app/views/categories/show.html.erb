@@ -5,5 +5,18 @@
   <%= @category.name %>
 </p>
 
+<p>
+  <strong>Category Path:</strong>
+  <p>
+    <% categories = @category.ancestors %>
+    <% categories.each_with_index do |category, index| %>
+      <%= category.name %>
+      <% if (index != (categories.count-1)) %>
+        >
+      <% end %>
+    <% end %>
+  </p>
+</p>
+
 <%= link_to 'Edit', edit_category_path(@category) %> |
 <%= link_to 'Back', categories_path %>
