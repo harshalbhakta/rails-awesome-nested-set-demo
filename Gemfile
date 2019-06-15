@@ -25,6 +25,10 @@ gem 'jbuilder', '~> 2.5'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# An awesome nested set implementation for Active Record
+# https://github.com/collectiveidea/awesome_nested_set/issues/402
+gem 'awesome_nested_set', github: 'collectiveidea/awesome_nested_set', branch: 'master'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 

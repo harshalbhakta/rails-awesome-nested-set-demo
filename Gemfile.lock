@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/collectiveidea/awesome_nested_set.git
+  revision: 7831531b10435c0387c702dc9fea7ba39629108a
+  branch: master
+  specs:
+    awesome_nested_set (3.1.4)
+      activerecord (>= 4.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -201,6 +209,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_nested_set!
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
